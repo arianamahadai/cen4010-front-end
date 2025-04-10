@@ -1,8 +1,11 @@
 export default function Home() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '2rem' }}>
-      <h1>Welcome!</h1>
-      <p>Go to <a href="/login">Login</a></p>
-    </div>
+    <main className="text-center mt-20">
+      <h1 className="text-4xl font-bold">Welcome to SkyCast</h1>
+      <p className="mt-4 text-gray-600">Check your weather forecast with style.</p>
+      <a href="/login" className="mt-6 inline-block text-blue-600 hover:underline">
+        Go to Login
+      </a>
+    </main>
   );
 }
